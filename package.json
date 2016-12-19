@@ -1,0 +1,29 @@
+{
+  "name": "sedusa",
+  "version": "1.0.0",
+  "description": "IRC bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "start": "node lib/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedusajs/sedusa.git"
+  },
+  "author": "Kester Everts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sedusajs/sedusa/issues"
+  },
+  "homepage": "https://github.com/sedusajs/sedusa#readme",
+  "dependencies": {
+    "irc": "^0.5.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "require-subvert": "^0.1.0",
+    "sinon": "^1.17.6"
+  }
+}
