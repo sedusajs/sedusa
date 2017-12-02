@@ -1,0 +1,44 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "quotes": ["error", "double", {"avoidEscape": true, "allowTemplateLiterals": true}],
+    "no-bitwise": "off",
+    "no-console": "off",
+    "no-restricted-syntax": [
+          "error",
+          "LabeledStatement",
+          "WithStatement"
+      ],
+      "no-plusplus": "off",
+      "keyword-spacing": ["error", {
+        "overrides": {
+          "if": {"after": false},
+          "for": {"after": false},
+          "while": {"after": false},
+          "switch": {"after": false},
+          "catch": {"after": false}
+        }
+      }],
+      "no-param-reassign": "off",
+      "no-continue": "off",
+      "no-use-before-define": ["error", { "functions": false, "classes": true }],
+      "no-multiple-empty-lines": ["error", {"max": 2, "maxEOF": 1}],
+      "object-curly-spacing": ["error", "never"],
+      "space-before-function-paren": ["error", {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }],
+      "no-plusplus": "off",
+      "no-trailing-spaces": ["error", {"skipBlankLines": true}],
+      "no-constant-condition": ["error", { "checkLoops": false }],
+      "no-underscore-dangle": "off",
+      "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }]
+  }
+}
